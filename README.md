@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS Blog
+
+Welcome to my blog website built with Next.js! This website showcases blog posts, which cover various topics ranging in technology. Feel free to explore, read, and engage with the content.
+
+## Features
+
+- **Homepage**: The homepage features selected blog posts that are considered featured.
+- **Posts Page**: This page displays all the blog posts in chronological order, allowing users to browse through the entire collection.
+- **Post Detail Page**: Each blog post has its own detail page where users can read the full content. The content is rendered using React-Markdown for a seamless reading experience.
+- **Contact Page**: Users can reach out to me directly through the contact page. They can submit messages along with their name and email address.
+- **Message Storage**: Messages sent through the contact page are saved using MongoDB Atlas, ensuring that I can keep track of and respond to inquiries effectively.
+
+## Technologies Used
+
+- **Next.js**: The website is built using Next.js, a React framework for building server-side rendered and statically generated web applications.
+- **React-Markdown**: This library is used to render Markdown content, allowing for easy creation and formatting of blog posts.
+- **MongoDB Atlas**: MongoDB Atlas is used to store and manage messages submitted through the contact page, providing a reliable and scalable database solution.
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. Clone this repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Run `npm install` to install the dependencies.
+4. Set up MongoDB Atlas and obtain your connection string.
+5. Create a `.env` file in the root directory and add your MongoDB connection string as `MONGODB_URI`.
+6. Run `npm run dev` to start the development server.
+7. Open your browser and navigate to `http://localhost:3000` to view the website.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Live Site
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can also visit the live site on [Vercel](https://nextjs-blog-rabis-projects.vercel.app/).
