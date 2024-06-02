@@ -30,4 +30,4 @@ To run this project locally, follow these steps:
 
 ## Live Site
 
-You can also visit the live site on [Vercel](https://nextjs-blog-rabis-projects.vercel.app/).
+You can also visit the live site on [Vercel](https://nextjs-blog-hazel-eight-17.vercel.app/).
